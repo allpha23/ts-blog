@@ -33,10 +33,10 @@ Pré-requisitos: npm
 
 ```bash
 # clonar repositório
-git clone git@github.com:allpha23/daily-blog.git
+git clone git@github.com:allpha23/ts-blog.git
 
 # entrar na pasta do projeto
-cd daily-blog
+cd blog
 
 # instalar dependências
 npm install
