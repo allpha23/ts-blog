@@ -4,26 +4,10 @@ import BlogItem from '../components/BlogItem';
 import Comments from '../components/Comments';
 import Header from '../components/Header';
 import { requestData } from '../services/request';
+import { TypeBlogs, TypeUsers, TypeComments } from '../interfaces/index';
 import '../styles/pages/Blog.sass';
 import 'react-toastify/dist/ReactToastify.css';
 
-type TypeBlogs = {
-  userId: number;
-  id: number;
-  title: string;
-  body: string;
-};
-
-type TypeUsers = {
-  id: number;
-  username: string;
-};
-
-type TypeComments = {
-  id: number;
-  name: string;
-  body: string;
-};
 
 export default function Blog() {
   const [blogs, setBlogs] = useState<TypeBlogs[]>([]);

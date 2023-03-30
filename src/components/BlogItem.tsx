@@ -1,18 +1,8 @@
 import React from 'react';
 import imgDefault from '../assets/unnamed.jpg';
+import { TypeBlogs, TypeUsers } from '../interfaces/index';
 import '../styles/components/BlogItem.sass';
 
-type TypeBlogs = {
-  userId: number;
-  id: number;
-  title: string;
-  body: string;
-};
-
-type TypeUsers = {
-  id: number;
-  username: string;
-};
 
 export default function BlogItem({
   blog,

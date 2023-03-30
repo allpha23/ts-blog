@@ -1,12 +1,8 @@
 import React, { MouseEventHandler } from 'react';
 import imgDefault from '../assets/unnamed.jpg';
+import { TypeComments } from '../interfaces/index';
 import '../styles/components/Comments.sass';
 
-type TypeComments = {
-  id: number;
-  name: string;
-  body: string;
-};
 
 export default function Comments({
   comments,
