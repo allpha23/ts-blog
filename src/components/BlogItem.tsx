@@ -3,7 +3,6 @@ import imgDefault from '../assets/unnamed.jpg';
 import { TypeBlogs, TypeUsers } from '../interfaces/index';
 import '../styles/components/BlogItem.sass';
 
-
 export default function BlogItem({
   blog,
   users,

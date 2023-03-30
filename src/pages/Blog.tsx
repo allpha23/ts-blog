@@ -8,7 +8,6 @@ import { TypeBlogs, TypeUsers, TypeComments } from '../interfaces/index';
 import '../styles/pages/Blog.sass';
 import 'react-toastify/dist/ReactToastify.css';
 
-
 export default function Blog() {
   const [blogs, setBlogs] = useState<TypeBlogs[]>([]);
   const [users, setUsers] = useState<TypeUsers[]>([]);

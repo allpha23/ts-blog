@@ -3,7 +3,6 @@ import imgDefault from '../assets/unnamed.jpg';
 import { TypeComments } from '../interfaces/index';
 import '../styles/components/Comments.sass';
 
-
 export default function Comments({
   comments,
   commentsOff,
