@@ -19,13 +19,13 @@ Ele também conta com testes usando react testing library
 ## Features
 
 - [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/) - more strict
-- [SASS/SCSS](https://sass-lang.com/) with [CSS Modules](https://github.com/css-modules/css-modules)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SASS/SCSS](https://sass-lang.com/)
 - [Jest](https://jestjs.io/) with [Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 - [Axios](https://axios-http.com/ptbr/docs/intro)
--[React-Toastify](https://fkhadra.github.io/react-toastify/introduction)
-- [ESLint](https://tailwindcss.com/) - with [airbnb](https://github.com/airbnb/javascript) and really [powerful configuration](./.eslintrc)
-- [Prettier](https://prettier.io/) - with editor configuration [file](./.vscode/settings.json)
+- [React-Toastify](https://fkhadra.github.io/react-toastify/introduction)
+- [ESLint](https://tailwindcss.com/) - with [airbnb](https://github.com/airbnb/javascript)
+- [Prettier](https://prettier.io/)
 
 ## Installation
 
